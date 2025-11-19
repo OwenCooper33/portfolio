@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Owen Cooper</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header">
+    <div class="logo">OC</div>
+    <nav class="nav">
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="mode-toggle" id="modeToggle" aria-label="Toggle color mode">
+      <span class="mode-icon">☀️</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero__content">
+        <p class="eyebrow">Engineer • Designer • Problem Solver</p>
+        <h1>Hi, I’m <span class="accent">Owen Cooper</span>.</h1>
+        <p class="lede">
+          I build software to serve users and balance functionaly with design.
+        </p>
+        <div class="hero__actions">
+          <a class="button filled" href="#projects">View Work</a>
+          <a class="button ghost" href="#contact">Let’s talk</a>
+        </div>
+
+        <!--
+        <div class="hero__meta">
+          <div class="meta-card">
+            <p class="meta-value" data-count="18">18</p>
+            <p class="meta-label">Projects shipped</p>
+          </div>
+          <div class="meta-card">
+            <p class="meta-value" data-count="6">6</p>
+            <p class="meta-label">Years experience</p>
+          </div>
+          <div class="meta-card">
+            <p class="meta-value" data-count="4">4</p>
+           <p class="meta-label">Industries</p>
+          </div>
+        </div>
+        -->
+
+      </div>
+      <div class="hero__visual">
+        <div class="orb orb--1"></div>
+        <div class="orb orb--2"></div>
+        <div class="orbit">
+          <div class="orbit__dot orbit__dot--1"></div>
+          <div class="orbit__dot orbit__dot--2"></div>
+          <div class="orbit__dot orbit__dot--3"></div>
+        </div>
+        <div class="glass">
+          <p class="glass__title">Currently Building</p>
+          <p class="glass__body">An AI cycling coaching platform to simplify coaching.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section__header">
+        <p class="eyebrow">Recent Work</p>
+        <h2>Projects</h2>
+        <p class="section__lead">
+          A selection of my projects showcasing a few of my favorite projects.
+        </p>
+      </div>
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card__header">
+            <span class="chip">2025</span>
+            <span class="chip chip--soft">SaaS</span>
+          </div>
+          <h3>JustRide</h3>
+          <p>
+            Led design and development of a cross-platform mobile app with real-time spend insights and biometric security.
+          </p>
+          <ul class="pill-list">
+            <li>React Native</li>
+            <li>TypeScript</li>
+            <li>Node</li>
+          </ul>
+          <a class="inline-link" href="#" target="_blank" rel="noreferrer">View case study →</a>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__header">
+            <span class="chip">2023</span>
+            <span class="chip chip--soft">SaaS</span>
+          </div>
+          <h3>InsightOps Platform</h3>
+          <p>
+            Built a modular analytics platform with live dashboards and collaborative reporting used by 5k+ teams.
+          </p>
+          <ul class="pill-list">
+            <li>Next.js</li>
+            <li>GraphQL</li>
+            <li>AWS</li>
+          </ul>
+          <a class="inline-link" href="#" target="_blank" rel="noreferrer">Visit site →</a>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__header">
+            <span class="chip">2022</span>
+            <span class="chip chip--soft">Healthcare</span>
+          </div>
+          <h3>CarePath Portal</h3>
+          <p>
+            Created an accessible patient portal with appointment scheduling, telehealth, and clinical messaging.
+          </p>
+          <ul class="pill-list">
+            <li>Vue</li>
+            <li>Laravel</li>
+            <li>Postgres</li>
+          </ul>
+          <a class="inline-link" href="#" target="_blank" rel="noreferrer">See prototype →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section__header">
+        <p class="eyebrow">Career</p>
+        <h2>Experience</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline__item reveal">
+          <div class="timeline__meta">
+            <span class="chip">July 2025 — August 2025</span>
+            <p class="timeline__role">Data Operations Intern</p>
+            <p class="timeline__org">Pison Technology</p>
+          </div>
+          <p class="timeline__body">
+            I built large-scale SQL workflows and Python pipelines to process EMG, PPG, and 
+            IMU sensor data, improving the accuracy of real-time health monitoring algorithms. 
+            I also engineered firmware updates and tested Bluetooth mesh systems, documenting 
+            results to support future product integration.
+          </p>
+        </div>
+        <div class="timeline__item reveal">
+          <div class="timeline__meta">
+            <span class="chip">June 2024 — September 2024</span>
+            <p class="timeline__role">Web Developer & Software Engineer Intern</p>
+            <p class="timeline__org">Global Healthy Living Foundation</p>
+          </div>
+          <p class="timeline__body">
+            I helped develop REST APIs and created a JavaScript data pipeline that streamlined patient–provider 
+            communication for underserved communities. I also implemented front-end designs and performed UI audits, 
+            proposing improvements with CSS and HTML prototypes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--split" id="contact">
+      <div>
+        <p class="eyebrow">Let’s build</p>
+        <h2>Ready for something new?</h2>
+        <p class="section__lead">
+          I’m open to collaborations, freelance opportunities, and speaking engagements. Drop a note and let’s explore.
+        </p>
+      </div>
+      <div class="contact-card reveal">
+        <form class="form" action="https://formspree.io/f/mayvlbvd" method="POST">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@email.com" required>
+          </label>
+          <label>
+            Project details
+            <textarea name="message" rows="4" placeholder="Tell me about your project"></textarea>
+          </label>
+          <button class="button filled" type="submit">Send message</button>
+        </form>
+        <div class="contact-meta">
+          <p><span>Location</span>Remote • Open to travel</p>
+          <p><span>Availability</span>Accepting new projects</p>
+          <p><span>Resume</span><a href="#">Download</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer__copy">© <span id="year"></span> Your Name</div>
+    <div class="footer__links">
+      <a href="mailto:you@example.com">Email</a>
+      <a href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
